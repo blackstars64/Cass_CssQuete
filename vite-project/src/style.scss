@@ -1,0 +1,54 @@
+.contenairCard {
+  border: 5px solid black;
+  background-color: rgb(255, 254, 237);
+  border-radius: 5%;
+  width: 25vw;
+  margin: auto;
+  .contenairImgAtribut {
+    display: flex;
+    .kirito {
+      width: 180px;
+      height: 140px;
+      border-radius: 5%;
+      border: 2px solid black;
+      margin: 1rem;
+    }
+    .contenairAtribut {
+      h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
+      ul {
+        li {
+          color: rgb(216, 4, 4);
+          font-size: 1.1rem;
+          list-style-type: none;
+          span {
+            padding-left: 2px;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  .contenairRate {
+    border-top: 3px solid black;
+    border-radius: 10%;
+    ul {
+      display: flex;
+      text-decoration: none;
+      list-style-type: none;
+      gap: 5px;
+      justify-content: space-around;
+      margin: 0;
+      padding: 1rem;
+
+      li {
+        img {
+          width: 30px;
+        }
+      }
+    }
+  }
+}
